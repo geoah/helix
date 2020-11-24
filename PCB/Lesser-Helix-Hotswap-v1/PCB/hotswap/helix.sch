@@ -1,0 +1,1066 @@
+EESchema Schematic File Version 5
+EELAYER 34 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 1
+Title "Helix beta"
+Date "2017-11-5"
+Rev "v0.2"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+Connection ~ 2600 1650
+Connection ~ 2700 3950
+Connection ~ 9200 2000
+Connection ~ 9200 2600
+Connection ~ 9200 3250
+Connection ~ 9800 2300
+Connection ~ 9800 2900
+Connection ~ 9800 3550
+Connection ~ 10050 2000
+Connection ~ 10050 2600
+Connection ~ 10050 3250
+Connection ~ 10650 2300
+Connection ~ 10650 2900
+Connection ~ 10650 3550
+Connection ~ 10900 2000
+Connection ~ 10900 2600
+Connection ~ 10900 3250
+Connection ~ 11500 2300
+Connection ~ 11500 2900
+Connection ~ 11500 3550
+Connection ~ 11750 2000
+Connection ~ 11750 2600
+Connection ~ 11750 3250
+Connection ~ 12350 2300
+Connection ~ 12350 2900
+Connection ~ 12350 3550
+Connection ~ 12600 2000
+Connection ~ 12600 2600
+Connection ~ 12600 3250
+Connection ~ 12600 3850
+Connection ~ 13200 2300
+Connection ~ 13200 2900
+Connection ~ 13200 3550
+Connection ~ 13200 4150
+Connection ~ 13450 2000
+Connection ~ 13450 2600
+Connection ~ 13450 3250
+Connection ~ 13450 3850
+Connection ~ 14050 3550
+Connection ~ 14050 4150
+Connection ~ 14300 3250
+Connection ~ 14300 3850
+NoConn ~ 3550 2850
+NoConn ~ 3550 2950
+Wire Wire Line
+	2600 3950 2700 3950
+Wire Wire Line
+	2700 1650 2600 1650
+Wire Wire Line
+	2700 3950 2800 3950
+Wire Wire Line
+	3550 1950 3800 1950
+Wire Wire Line
+	3550 2050 3800 2050
+Wire Wire Line
+	3550 2350 3800 2350
+Wire Wire Line
+	3550 2550 3800 2550
+Wire Wire Line
+	3550 2650 3800 2650
+Wire Wire Line
+	3550 2750 3800 2750
+Wire Wire Line
+	3550 3050 3800 3050
+Wire Wire Line
+	3550 3150 3800 3150
+Wire Wire Line
+	3550 3250 3800 3250
+Wire Wire Line
+	3550 3350 3800 3350
+Wire Wire Line
+	3550 3450 3800 3450
+Wire Wire Line
+	3550 3550 3800 3550
+Wire Wire Line
+	3550 3650 3800 3650
+Wire Wire Line
+	3800 2450 3550 2450
+Wire Wire Line
+	8950 2300 9800 2300
+Wire Wire Line
+	8950 2900 9800 2900
+Wire Wire Line
+	8950 3550 9800 3550
+Wire Wire Line
+	8950 4150 13200 4150
+Wire Wire Line
+	9200 1800 9200 2000
+Wire Wire Line
+	9200 2000 9200 2600
+Wire Wire Line
+	9200 2600 9200 3250
+Wire Wire Line
+	9200 3250 9200 4450
+Wire Wire Line
+	9800 2300 10650 2300
+Wire Wire Line
+	9800 2900 10650 2900
+Wire Wire Line
+	9800 3550 10650 3550
+Wire Wire Line
+	10050 1800 10050 2000
+Wire Wire Line
+	10050 2000 10050 2600
+Wire Wire Line
+	10050 2600 10050 3250
+Wire Wire Line
+	10050 3250 10050 4450
+Wire Wire Line
+	10650 2300 11500 2300
+Wire Wire Line
+	10650 2900 11500 2900
+Wire Wire Line
+	10650 3550 11500 3550
+Wire Wire Line
+	10900 1800 10900 2000
+Wire Wire Line
+	10900 2000 10900 2600
+Wire Wire Line
+	10900 2600 10900 3250
+Wire Wire Line
+	10900 3250 10900 4450
+Wire Wire Line
+	11500 2300 12350 2300
+Wire Wire Line
+	11500 2900 12350 2900
+Wire Wire Line
+	11500 3550 12350 3550
+Wire Wire Line
+	11750 1800 11750 2000
+Wire Wire Line
+	11750 2000 11750 2600
+Wire Wire Line
+	11750 2600 11750 3250
+Wire Wire Line
+	11750 3250 11750 4450
+Wire Wire Line
+	12350 2300 13200 2300
+Wire Wire Line
+	12350 2900 13200 2900
+Wire Wire Line
+	12350 3550 13200 3550
+Wire Wire Line
+	12600 1800 12600 2000
+Wire Wire Line
+	12600 2000 12600 2600
+Wire Wire Line
+	12600 2600 12600 3250
+Wire Wire Line
+	12600 3250 12600 3850
+Wire Wire Line
+	12600 3850 12600 4450
+Wire Wire Line
+	13200 2300 14050 2300
+Wire Wire Line
+	13200 2900 14050 2900
+Wire Wire Line
+	13200 3550 14050 3550
+Wire Wire Line
+	13200 4150 14050 4150
+Wire Wire Line
+	13450 1800 13450 2000
+Wire Wire Line
+	13450 2000 13450 2600
+Wire Wire Line
+	13450 2600 13450 3250
+Wire Wire Line
+	13450 3250 13450 3850
+Wire Wire Line
+	13450 3850 13450 4450
+Wire Wire Line
+	14050 3550 14900 3550
+Wire Wire Line
+	14050 4150 14900 4150
+Wire Wire Line
+	14300 1800 14300 3250
+Wire Wire Line
+	14300 3250 14300 3850
+Wire Wire Line
+	14300 3850 14300 4450
+Text Label 2300 2250 2    60   ~ 0
+~RESET
+Text Label 3550 1950 0    60   ~ 0
+TX
+Text Label 3550 2050 0    60   ~ 0
+RX
+Text Label 3550 2150 0    60   ~ 0
+SDA
+Text Label 3550 2250 0    60   ~ 0
+SCL
+Text Label 3550 2850 0    60   ~ 0
+ex1
+Text Label 3550 2950 0    60   ~ 0
+ex2
+Text Label 3550 3050 0    60   ~ 0
+MOSI
+Text Label 3550 3150 0    60   ~ 0
+MISO
+Text Label 3550 3250 0    60   ~ 0
+SCK
+Text Label 3600 7650 0    60   ~ 0
+~RESET
+Text GLabel 3800 1950 2    60   Input ~ 0
+LED
+Text GLabel 3800 2050 2    60   Input ~ 0
+data
+Text GLabel 3800 2350 2    60   Input ~ 0
+row0
+Text GLabel 3800 2450 2    60   Input ~ 0
+row1
+Text GLabel 3800 2550 2    60   Input ~ 0
+row2
+Text GLabel 3800 2650 2    60   Input ~ 0
+row3
+Text GLabel 3800 2750 2    60   Input ~ 0
+row4
+Text GLabel 3800 3050 2    60   Input ~ 0
+col6
+Text GLabel 3800 3150 2    60   Input ~ 0
+col5
+Text GLabel 3800 3250 2    60   Input ~ 0
+col4
+Text GLabel 3800 3350 2    60   Input ~ 0
+col3
+Text GLabel 3800 3450 2    60   Input ~ 0
+col2
+Text GLabel 3800 3550 2    60   Input ~ 0
+col1
+Text GLabel 3800 3650 2    60   Input ~ 0
+col0
+Text GLabel 8950 2300 0    60   Input ~ 0
+row0
+Text GLabel 8950 2900 0    60   Input ~ 0
+row1
+Text GLabel 8950 3550 0    60   Input ~ 0
+row2
+Text GLabel 8950 4150 0    60   Input ~ 0
+row3
+Text GLabel 9200 1800 1    60   Input ~ 0
+col0
+Text GLabel 10050 1800 1    60   Input ~ 0
+col1
+Text GLabel 10900 1800 1    60   Input ~ 0
+col2
+Text GLabel 11750 1800 1    60   Input ~ 0
+col3
+Text GLabel 12600 1800 1    60   Input ~ 0
+col4
+Text GLabel 13450 1800 1    60   Input ~ 0
+col5
+Text GLabel 14300 1800 1    60   Input ~ 0
+col6
+$Comp
+L helix-rescue:VCC-helix-cache-2019-03-21-22-27-31 #PWR010
+U 1 1 598BA2D5
+P 700 700
+AR Path="/598BA2D5" Ref="#PWR010"  Part="1" 
+AR Path="/00000000/598BA2D5" Ref="#PWR010"  Part="1" 
+F 0 "#PWR010" H 700 550 50  0001 C CNN
+F 1 "VCC" H 700 850 50  0000 C CNN
+F 2 "" H 700 700 50  0000 C CNN
+F 3 "" H 700 700 50  0000 C CNN
+	1    700  700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:VCC-helix-cache-2019-03-21-22-27-31 #PWR02
+U 1 1 5987EBDF
+P 2600 1650
+AR Path="/5987EBDF" Ref="#PWR02"  Part="1" 
+AR Path="/00000000/5987EBDF" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 2600 1500 50  0001 C CNN
+F 1 "VCC" H 2600 1800 50  0000 C CNN
+F 2 "" H 2600 1650 50  0000 C CNN
+F 3 "" H 2600 1650 50  0000 C CNN
+	1    2600 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:GND-helix-cache-2019-03-21-22-27-31 #PWR011
+U 1 1 598BAAC0
+P 1050 750
+AR Path="/598BAAC0" Ref="#PWR011"  Part="1" 
+AR Path="/00000000/598BAAC0" Ref="#PWR011"  Part="1" 
+F 0 "#PWR011" H 1050 500 50  0001 C CNN
+F 1 "GND" H 1050 600 50  0000 C CNN
+F 2 "" H 1050 750 50  0000 C CNN
+F 3 "" H 1050 750 50  0000 C CNN
+	1    1050 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:GND-helix-cache-2019-03-21-22-27-31 #PWR03
+U 1 1 5987FD0F
+P 2700 3950
+AR Path="/5987FD0F" Ref="#PWR03"  Part="1" 
+AR Path="/00000000/5987FD0F" Ref="#PWR03"  Part="1" 
+F 0 "#PWR03" H 2700 3700 50  0001 C CNN
+F 1 "GND" H 2700 3800 50  0000 C CNN
+F 2 "" H 2700 3950 50  0000 C CNN
+F 3 "" H 2700 3950 50  0000 C CNN
+	1    2700 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:GND-helix-cache-2019-03-21-22-27-31 #PWR01
+U 1 1 5987E2B9
+P 3000 7650
+AR Path="/5987E2B9" Ref="#PWR01"  Part="1" 
+AR Path="/00000000/5987E2B9" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 3000 7400 50  0001 C CNN
+F 1 "GND" H 3000 7500 50  0000 C CNN
+F 2 "" H 3000 7650 50  0000 C CNN
+F 3 "" H 3000 7650 50  0000 C CNN
+	1    3000 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5CBE51DD
+P 6050 6300
+AR Path="/5CBE51DD" Ref="H2"  Part="1" 
+AR Path="/00000000/5CBE51DD" Ref="H2"  Part="1" 
+F 0 "H2" H 6150 6346 50  0000 L CNN
+F 1 "MountingHole" H 6150 6255 50  0000 L CNN
+F 2 "JMG:HOLE_M2_TH" H 6050 6300 50  0001 C CNN
+F 3 "~" H 6050 6300 50  0001 C CNN
+	1    6050 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5CBE541A
+P 6050 6500
+AR Path="/5CBE541A" Ref="H1"  Part="1" 
+AR Path="/00000000/5CBE541A" Ref="H1"  Part="1" 
+F 0 "H1" H 6150 6546 50  0000 L CNN
+F 1 "MountingHole" H 6150 6455 50  0000 L CNN
+F 2 "JMG:HOLE_M2_TH" H 6050 6500 50  0001 C CNN
+F 3 "~" H 6050 6500 50  0001 C CNN
+	1    6050 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5CBE7733
+P 6050 6700
+AR Path="/5CBE7733" Ref="H3"  Part="1" 
+AR Path="/00000000/5CBE7733" Ref="H3"  Part="1" 
+F 0 "H3" H 6150 6746 50  0000 L CNN
+F 1 "MountingHole" H 6150 6655 50  0000 L CNN
+F 2 "JMG:HOLE_M2_TH" H 6050 6700 50  0001 C CNN
+F 3 "~" H 6050 6700 50  0001 C CNN
+	1    6050 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 5CBEFBD4
+P 6050 7400
+AR Path="/5CBEFBD4" Ref="H10"  Part="1" 
+AR Path="/00000000/5CBEFBD4" Ref="H10"  Part="1" 
+F 0 "H10" H 6150 7446 50  0000 L CNN
+F 1 "MountingHole" H 6150 7355 50  0000 L CNN
+F 2 "JMG:HOLE_M2" H 6050 7400 50  0001 C CNN
+F 3 "~" H 6050 7400 50  0001 C CNN
+	1    6050 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H11
+U 1 1 5CBEFF57
+P 6050 7600
+AR Path="/5CBEFF57" Ref="H11"  Part="1" 
+AR Path="/00000000/5CBEFF57" Ref="H11"  Part="1" 
+F 0 "H11" H 6150 7646 50  0000 L CNN
+F 1 "MountingHole" H 6150 7555 50  0000 L CNN
+F 2 "JMG:HOLE_M2" H 6050 7600 50  0001 C CNN
+F 3 "~" H 6050 7600 50  0001 C CNN
+	1    6050 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5CBE7C98
+P 6750 6450
+AR Path="/5CBE7C98" Ref="H6"  Part="1" 
+AR Path="/00000000/5CBE7C98" Ref="H6"  Part="1" 
+F 0 "H6" H 6850 6496 50  0000 L CNN
+F 1 "MountingHole" H 6850 6405 50  0000 L CNN
+F 2 "JMG:HOLE_M2_TH" H 6750 6450 50  0001 C CNN
+F 3 "~" H 6750 6450 50  0001 C CNN
+	1    6750 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H12
+U 1 1 5CBEFD9B
+P 6750 7400
+AR Path="/5CBEFD9B" Ref="H12"  Part="1" 
+AR Path="/00000000/5CBEFD9B" Ref="H12"  Part="1" 
+F 0 "H12" H 6850 7446 50  0000 L CNN
+F 1 "MountingHole" H 6850 7355 50  0000 L CNN
+F 2 "JMG:HOLE_M2" H 6750 7400 50  0001 C CNN
+F 3 "~" H 6750 7400 50  0001 C CNN
+	1    6750 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H13
+U 1 1 5CBF010C
+P 6750 7600
+AR Path="/5CBF010C" Ref="H13"  Part="1" 
+AR Path="/00000000/5CBF010C" Ref="H13"  Part="1" 
+F 0 "H13" H 6850 7646 50  0000 L CNN
+F 1 "MountingHole" H 6850 7555 50  0000 L CNN
+F 2 "JMG:HOLE_M2" H 6750 7600 50  0001 C CNN
+F 3 "~" H 6750 7600 50  0001 C CNN
+	1    6750 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:PWR_FLAG-helix-cache-2019-03-21-22-27-31 #FLG012
+U 1 1 598BB00D
+P 700 700
+AR Path="/598BB00D" Ref="#FLG012"  Part="1" 
+AR Path="/00000000/598BB00D" Ref="#FLG012"  Part="1" 
+F 0 "#FLG012" H 700 795 50  0001 C CNN
+F 1 "PWR_FLAG" H 700 880 50  0000 C CNN
+F 2 "" H 700 700 50  0000 C CNN
+F 3 "" H 700 700 50  0000 C CNN
+	1    700  700 
+	-1   0    0    1   
+$EndComp
+$Comp
+L helix-rescue:PWR_FLAG-helix-cache-2019-03-21-22-27-31 #FLG013
+U 1 1 598BB1DF
+P 1050 750
+AR Path="/598BB1DF" Ref="#FLG013"  Part="1" 
+AR Path="/00000000/598BB1DF" Ref="#FLG013"  Part="1" 
+F 0 "#FLG013" H 1050 845 50  0001 C CNN
+F 1 "PWR_FLAG" H 1050 930 50  0000 C CNN
+F 2 "" H 1050 750 50  0000 C CNN
+F 3 "" H 1050 750 50  0000 C CNN
+	1    1050 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:D-helix-cache-2019-03-21-22-27-31 D1
+U 1 1 5986ACFA
+P 9800 2150
+AR Path="/5986ACFA" Ref="D1"  Part="1" 
+AR Path="/00000000/5986ACFA" Ref="D1"  Part="1" 
+F 0 "D1" H 9800 2250 50  0000 C CNN
+F 1 "D" H 9800 2050 50  0000 C CNN
+F 2 "MYLIB:D3_TH_SMD" H 9800 2150 50  0001 C CNN
+F 3 "" H 9800 2150 50  0000 C CNN
+	1    9800 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L helix-rescue:D-helix-cache-2019-03-21-22-27-31 D7
+U 1 1 5986C666
+P 9800 2750
+AR Path="/5986C666" Ref="D7"  Part="1" 
+AR Path="/00000000/5986C666" Ref="D7"  Part="1" 
+F 0 "D7" H 9800 2850 50  0000 C CNN
+F 1 "D" H 9800 2650 50  0000 C CNN
+F 2 "MYLIB:D3_TH_SMD" H 9800 2750 50  0001 C CNN
+F 3 "" H 9800 2750 50  0000 C CNN
+	1    9800 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L helix-rescue:D-helix-cache-2019-03-21-22-27-31 D13
+U 1 1 5986C96C
+P 9800 3400
+AR Path="/5986C96C" Ref="D13"  Part="1" 
+AR Path="/00000000/5986C96C" Ref="D13"  Part="1" 
+F 0 "D13" H 9800 3500 50  0000 C CNN
+F 1 "D" H 9800 3300 50  0000 C CNN
+F 2 "MYLIB:D3_TH_SMD" H 9800 3400 50  0001 C CNN
+F 3 "" H 9800 3400 50  0000 C CNN
+	1    9800 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L helix-rescue:D-helix-cache-2019-03-21-22-27-31 D2
+U 1 1 5986AE36
+P 10650 2150
+AR Path="/5986AE36" Ref="D2"  Part="1" 
+AR Path="/00000000/5986AE36" Ref="D2"  Part="1" 
+F 0 "D2" H 10650 2250 50  0000 C CNN
+F 1 "D" H 10650 2050 50  0000 C CNN
+F 2 "MYLIB:D3_TH_SMD" H 10650 2150 50  0001 C CNN
+F 3 "" H 10650 2150 50  0000 C CNN
+	1    10650 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L helix-rescue:D-helix-cache-2019-03-21-22-27-31 D8
+U 1 1 5986C672
+P 10650 2750
+AR Path="/5986C672" Ref="D8"  Part="1" 
+AR Path="/00000000/5986C672" Ref="D8"  Part="1" 
+F 0 "D8" H 10650 2850 50  0000 C CNN
+F 1 "D" H 10650 2650 50  0000 C CNN
+F 2 "MYLIB:D3_TH_SMD" H 10650 2750 50  0001 C CNN
+F 3 "" H 10650 2750 50  0000 C CNN
+	1    10650 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L helix-rescue:D-helix-cache-2019-03-21-22-27-31 D14
+U 1 1 5986C978
+P 10650 3400
+AR Path="/5986C978" Ref="D14"  Part="1" 
+AR Path="/00000000/5986C978" Ref="D14"  Part="1" 
+F 0 "D14" H 10650 3500 50  0000 C CNN
+F 1 "D" H 10650 3300 50  0000 C CNN
+F 2 "MYLIB:D3_TH_SMD" H 10650 3400 50  0001 C CNN
+F 3 "" H 10650 3400 50  0000 C CNN
+	1    10650 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L helix-rescue:D-helix-cache-2019-03-21-22-27-31 D3
+U 1 1 5986B484
+P 11500 2150
+AR Path="/5986B484" Ref="D3"  Part="1" 
+AR Path="/00000000/5986B484" Ref="D3"  Part="1" 
+F 0 "D3" H 11500 2250 50  0000 C CNN
+F 1 "D" H 11500 2050 50  0000 C CNN
+F 2 "MYLIB:D3_TH_SMD" H 11500 2150 50  0001 C CNN
+F 3 "" H 11500 2150 50  0000 C CNN
+	1    11500 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L helix-rescue:D-helix-cache-2019-03-21-22-27-31 D9
+U 1 1 5986C67E
+P 11500 2750
+AR Path="/5986C67E" Ref="D9"  Part="1" 
+AR Path="/00000000/5986C67E" Ref="D9"  Part="1" 
+F 0 "D9" H 11500 2850 50  0000 C CNN
+F 1 "D" H 11500 2650 50  0000 C CNN
+F 2 "MYLIB:D3_TH_SMD" H 11500 2750 50  0001 C CNN
+F 3 "" H 11500 2750 50  0000 C CNN
+	1    11500 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L helix-rescue:D-helix-cache-2019-03-21-22-27-31 D15
+U 1 1 5986C984
+P 11500 3400
+AR Path="/5986C984" Ref="D15"  Part="1" 
+AR Path="/00000000/5986C984" Ref="D15"  Part="1" 
+F 0 "D15" H 11500 3500 50  0000 C CNN
+F 1 "D" H 11500 3300 50  0000 C CNN
+F 2 "MYLIB:D3_TH_SMD" H 11500 3400 50  0001 C CNN
+F 3 "" H 11500 3400 50  0000 C CNN
+	1    11500 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L helix-rescue:D-helix-cache-2019-03-21-22-27-31 D4
+U 1 1 5986B490
+P 12350 2150
+AR Path="/5986B490" Ref="D4"  Part="1" 
+AR Path="/00000000/5986B490" Ref="D4"  Part="1" 
+F 0 "D4" H 12350 2250 50  0000 C CNN
+F 1 "D" H 12350 2050 50  0000 C CNN
+F 2 "MYLIB:D3_TH_SMD" H 12350 2150 50  0001 C CNN
+F 3 "" H 12350 2150 50  0000 C CNN
+	1    12350 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L helix-rescue:D-helix-cache-2019-03-21-22-27-31 D10
+U 1 1 5986C68A
+P 12350 2750
+AR Path="/5986C68A" Ref="D10"  Part="1" 
+AR Path="/00000000/5986C68A" Ref="D10"  Part="1" 
+F 0 "D10" H 12350 2850 50  0000 C CNN
+F 1 "D" H 12350 2650 50  0000 C CNN
+F 2 "MYLIB:D3_TH_SMD" H 12350 2750 50  0001 C CNN
+F 3 "" H 12350 2750 50  0000 C CNN
+	1    12350 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L helix-rescue:D-helix-cache-2019-03-21-22-27-31 D16
+U 1 1 5986C990
+P 12350 3400
+AR Path="/5986C990" Ref="D16"  Part="1" 
+AR Path="/00000000/5986C990" Ref="D16"  Part="1" 
+F 0 "D16" H 12350 3500 50  0000 C CNN
+F 1 "D" H 12350 3300 50  0000 C CNN
+F 2 "MYLIB:D3_TH_SMD" H 12350 3400 50  0001 C CNN
+F 3 "" H 12350 3400 50  0000 C CNN
+	1    12350 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L helix-rescue:D-helix-cache-2019-03-21-22-27-31 D5
+U 1 1 5986BABD
+P 13200 2150
+AR Path="/5986BABD" Ref="D5"  Part="1" 
+AR Path="/00000000/5986BABD" Ref="D5"  Part="1" 
+F 0 "D5" H 13200 2250 50  0000 C CNN
+F 1 "D" H 13200 2050 50  0000 C CNN
+F 2 "MYLIB:D3_TH_SMD" H 13200 2150 50  0001 C CNN
+F 3 "" H 13200 2150 50  0000 C CNN
+	1    13200 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L helix-rescue:D-helix-cache-2019-03-21-22-27-31 D11
+U 1 1 5986C696
+P 13200 2750
+AR Path="/5986C696" Ref="D11"  Part="1" 
+AR Path="/00000000/5986C696" Ref="D11"  Part="1" 
+F 0 "D11" H 13200 2850 50  0000 C CNN
+F 1 "D" H 13200 2650 50  0000 C CNN
+F 2 "MYLIB:D3_TH_SMD" H 13200 2750 50  0001 C CNN
+F 3 "" H 13200 2750 50  0000 C CNN
+	1    13200 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L helix-rescue:D-helix-cache-2019-03-21-22-27-31 D17
+U 1 1 5986C99C
+P 13200 3400
+AR Path="/5986C99C" Ref="D17"  Part="1" 
+AR Path="/00000000/5986C99C" Ref="D17"  Part="1" 
+F 0 "D17" H 13200 3500 50  0000 C CNN
+F 1 "D" H 13200 3300 50  0000 C CNN
+F 2 "MYLIB:D3_TH_SMD" H 13200 3400 50  0001 C CNN
+F 3 "" H 13200 3400 50  0000 C CNN
+	1    13200 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L helix-rescue:D-helix-cache-2019-03-21-22-27-31 D23
+U 1 1 5986C9E4
+P 13200 4000
+AR Path="/5986C9E4" Ref="D23"  Part="1" 
+AR Path="/00000000/5986C9E4" Ref="D23"  Part="1" 
+F 0 "D23" H 13200 4100 50  0000 C CNN
+F 1 "D" H 13200 3900 50  0000 C CNN
+F 2 "MYLIB:D3_TH_SMD" H 13200 4000 50  0001 C CNN
+F 3 "" H 13200 4000 50  0000 C CNN
+	1    13200 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L helix-rescue:D-helix-cache-2019-03-21-22-27-31 D6
+U 1 1 5986BAC9
+P 14050 2150
+AR Path="/5986BAC9" Ref="D6"  Part="1" 
+AR Path="/00000000/5986BAC9" Ref="D6"  Part="1" 
+F 0 "D6" H 14050 2250 50  0000 C CNN
+F 1 "D" H 14050 2050 50  0000 C CNN
+F 2 "MYLIB:D3_TH_SMD" H 14050 2150 50  0001 C CNN
+F 3 "" H 14050 2150 50  0000 C CNN
+	1    14050 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L helix-rescue:D-helix-cache-2019-03-21-22-27-31 D12
+U 1 1 5986C6A2
+P 14050 2750
+AR Path="/5986C6A2" Ref="D12"  Part="1" 
+AR Path="/00000000/5986C6A2" Ref="D12"  Part="1" 
+F 0 "D12" H 14050 2850 50  0000 C CNN
+F 1 "D" H 14050 2650 50  0000 C CNN
+F 2 "MYLIB:D3_TH_SMD" H 14050 2750 50  0001 C CNN
+F 3 "" H 14050 2750 50  0000 C CNN
+	1    14050 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L helix-rescue:D-helix-cache-2019-03-21-22-27-31 D18
+U 1 1 5986C9A8
+P 14050 3400
+AR Path="/5986C9A8" Ref="D18"  Part="1" 
+AR Path="/00000000/5986C9A8" Ref="D18"  Part="1" 
+F 0 "D18" H 14050 3500 50  0000 C CNN
+F 1 "D" H 14050 3300 50  0000 C CNN
+F 2 "MYLIB:D3_TH_SMD" H 14050 3400 50  0001 C CNN
+F 3 "" H 14050 3400 50  0000 C CNN
+	1    14050 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L helix-rescue:D-helix-cache-2019-03-21-22-27-31 D24
+U 1 1 5986C9F0
+P 14050 4000
+AR Path="/5986C9F0" Ref="D24"  Part="1" 
+AR Path="/00000000/5986C9F0" Ref="D24"  Part="1" 
+F 0 "D24" H 14050 4100 50  0000 C CNN
+F 1 "D" H 14050 3900 50  0000 C CNN
+F 2 "MYLIB:D3_TH_SMD" H 14050 4000 50  0001 C CNN
+F 3 "" H 14050 4000 50  0000 C CNN
+	1    14050 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L helix-rescue:D-helix-cache-2019-03-21-22-27-31 D19
+U 1 1 5EEE5631
+P 14900 3400
+AR Path="/5EEE5631" Ref="D19"  Part="1" 
+AR Path="/00000000/5EEE5631" Ref="D19"  Part="1" 
+F 0 "D19" H 14900 3500 50  0000 C CNN
+F 1 "D" H 14900 3300 50  0000 C CNN
+F 2 "MYLIB:D3_TH_SMD" H 14900 3400 50  0001 C CNN
+F 3 "" H 14900 3400 50  0000 C CNN
+	1    14900 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L helix-rescue:D-helix-cache-2019-03-21-22-27-31 D25
+U 1 1 5A04CB0D
+P 14900 4000
+AR Path="/5A04CB0D" Ref="D25"  Part="1" 
+AR Path="/00000000/5A04CB0D" Ref="D25"  Part="1" 
+F 0 "D25" H 14900 4100 50  0000 C CNN
+F 1 "D" H 14900 3900 50  0000 C CNN
+F 2 "MYLIB:D3_TH_SMD" H 14900 4000 50  0001 C CNN
+F 3 "" H 14900 4000 50  0000 C CNN
+	1    14900 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L helix-rescue:SW_PUSH-helix-cache-2019-03-21-22-27-31 SW33
+U 1 1 59875EC2
+P 3300 7650
+AR Path="/59875EC2" Ref="SW33"  Part="1" 
+AR Path="/00000000/59875EC2" Ref="SW33"  Part="1" 
+F 0 "SW33" H 3450 7760 50  0000 C CNN
+F 1 "Reset" H 3300 7570 50  0000 C CNN
+F 2 "MYLIB:SW_3.5x6.0_TH" H 3300 7650 50  0001 C CNN
+F 3 "" H 3300 7650 50  0000 C CNN
+	1    3300 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:SW_PUSH-helix-cache-2019-03-21-22-27-31 SW1
+U 1 1 5986AC91
+P 9500 2000
+AR Path="/5986AC91" Ref="SW1"  Part="1" 
+AR Path="/00000000/5986AC91" Ref="SW1"  Part="1" 
+F 0 "SW1" H 9650 2110 50  0000 C CNN
+F 1 "SW_PUSH" H 9500 1920 50  0000 C CNN
+F 2 "JMG:MXOnly-1U-Hotswap-Double-noled" H 9500 2000 50  0001 C CNN
+F 3 "" H 9500 2000 50  0000 C CNN
+	1    9500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:SW_PUSH-helix-cache-2019-03-21-22-27-31 SW7
+U 1 1 5986C660
+P 9500 2600
+AR Path="/5986C660" Ref="SW7"  Part="1" 
+AR Path="/00000000/5986C660" Ref="SW7"  Part="1" 
+F 0 "SW7" H 9650 2710 50  0000 C CNN
+F 1 "SW_PUSH" H 9500 2520 50  0000 C CNN
+F 2 "JMG:MXOnly-1U-Hotswap-Double-noled" H 9500 2600 50  0001 C CNN
+F 3 "" H 9500 2600 50  0000 C CNN
+	1    9500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:SW_PUSH-helix-cache-2019-03-21-22-27-31 SW13
+U 1 1 5986C966
+P 9500 3250
+AR Path="/5986C966" Ref="SW13"  Part="1" 
+AR Path="/00000000/5986C966" Ref="SW13"  Part="1" 
+F 0 "SW13" H 9650 3360 50  0000 C CNN
+F 1 "SW_PUSH" H 9500 3170 50  0000 C CNN
+F 2 "JMG:MXOnly-1U-Hotswap-Double-noled" H 9500 3250 50  0001 C CNN
+F 3 "" H 9500 3250 50  0000 C CNN
+	1    9500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:SW_PUSH-helix-cache-2019-03-21-22-27-31 SW2
+U 1 1 5986AE30
+P 10350 2000
+AR Path="/5986AE30" Ref="SW2"  Part="1" 
+AR Path="/00000000/5986AE30" Ref="SW2"  Part="1" 
+F 0 "SW2" H 10500 2110 50  0000 C CNN
+F 1 "SW_PUSH" H 10350 1920 50  0000 C CNN
+F 2 "JMG:MXOnly-1U-Hotswap-Double-noled" H 10350 2000 50  0001 C CNN
+F 3 "" H 10350 2000 50  0000 C CNN
+	1    10350 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:SW_PUSH-helix-cache-2019-03-21-22-27-31 SW8
+U 1 1 5986C66C
+P 10350 2600
+AR Path="/5986C66C" Ref="SW8"  Part="1" 
+AR Path="/00000000/5986C66C" Ref="SW8"  Part="1" 
+F 0 "SW8" H 10500 2710 50  0000 C CNN
+F 1 "SW_PUSH" H 10350 2520 50  0000 C CNN
+F 2 "JMG:MXOnly-1U-Hotswap-Double-noled" H 10350 2600 50  0001 C CNN
+F 3 "" H 10350 2600 50  0000 C CNN
+	1    10350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:SW_PUSH-helix-cache-2019-03-21-22-27-31 SW14
+U 1 1 5986C972
+P 10350 3250
+AR Path="/5986C972" Ref="SW14"  Part="1" 
+AR Path="/00000000/5986C972" Ref="SW14"  Part="1" 
+F 0 "SW14" H 10500 3360 50  0000 C CNN
+F 1 "SW_PUSH" H 10350 3170 50  0000 C CNN
+F 2 "JMG:MXOnly-1U-Hotswap-Double-noled" H 10350 3250 50  0001 C CNN
+F 3 "" H 10350 3250 50  0000 C CNN
+	1    10350 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:SW_PUSH-helix-cache-2019-03-21-22-27-31 SW3
+U 1 1 5986B47E
+P 11200 2000
+AR Path="/5986B47E" Ref="SW3"  Part="1" 
+AR Path="/00000000/5986B47E" Ref="SW3"  Part="1" 
+F 0 "SW3" H 11350 2110 50  0000 C CNN
+F 1 "SW_PUSH" H 11200 1920 50  0000 C CNN
+F 2 "JMG:MXOnly-1U-Hotswap-Double-noled" H 11200 2000 50  0001 C CNN
+F 3 "" H 11200 2000 50  0000 C CNN
+	1    11200 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:SW_PUSH-helix-cache-2019-03-21-22-27-31 SW9
+U 1 1 5986C678
+P 11200 2600
+AR Path="/5986C678" Ref="SW9"  Part="1" 
+AR Path="/00000000/5986C678" Ref="SW9"  Part="1" 
+F 0 "SW9" H 11350 2710 50  0000 C CNN
+F 1 "SW_PUSH" H 11200 2520 50  0000 C CNN
+F 2 "JMG:MXOnly-1U-Hotswap-Double-noled" H 11200 2600 50  0001 C CNN
+F 3 "" H 11200 2600 50  0000 C CNN
+	1    11200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:SW_PUSH-helix-cache-2019-03-21-22-27-31 SW15
+U 1 1 5986C97E
+P 11200 3250
+AR Path="/5986C97E" Ref="SW15"  Part="1" 
+AR Path="/00000000/5986C97E" Ref="SW15"  Part="1" 
+F 0 "SW15" H 11350 3360 50  0000 C CNN
+F 1 "SW_PUSH" H 11200 3170 50  0000 C CNN
+F 2 "JMG:MXOnly-1U-Hotswap-Double-noled" H 11200 3250 50  0001 C CNN
+F 3 "" H 11200 3250 50  0000 C CNN
+	1    11200 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:SW_PUSH-helix-cache-2019-03-21-22-27-31 SW4
+U 1 1 5986B48A
+P 12050 2000
+AR Path="/5986B48A" Ref="SW4"  Part="1" 
+AR Path="/00000000/5986B48A" Ref="SW4"  Part="1" 
+F 0 "SW4" H 12200 2110 50  0000 C CNN
+F 1 "SW_PUSH" H 12050 1920 50  0000 C CNN
+F 2 "JMG:MXOnly-1U-Hotswap-Double-noled" H 12050 2000 50  0001 C CNN
+F 3 "" H 12050 2000 50  0000 C CNN
+	1    12050 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:SW_PUSH-helix-cache-2019-03-21-22-27-31 SW10
+U 1 1 5986C684
+P 12050 2600
+AR Path="/5986C684" Ref="SW10"  Part="1" 
+AR Path="/00000000/5986C684" Ref="SW10"  Part="1" 
+F 0 "SW10" H 12200 2710 50  0000 C CNN
+F 1 "SW_PUSH" H 12050 2520 50  0000 C CNN
+F 2 "JMG:MXOnly-1U-Hotswap-Double-noled" H 12050 2600 50  0001 C CNN
+F 3 "" H 12050 2600 50  0000 C CNN
+	1    12050 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:SW_PUSH-helix-cache-2019-03-21-22-27-31 SW16
+U 1 1 5986C98A
+P 12050 3250
+AR Path="/5986C98A" Ref="SW16"  Part="1" 
+AR Path="/00000000/5986C98A" Ref="SW16"  Part="1" 
+F 0 "SW16" H 12200 3360 50  0000 C CNN
+F 1 "SW_PUSH" H 12050 3170 50  0000 C CNN
+F 2 "JMG:MXOnly-1U-Hotswap-Double-noled" H 12050 3250 50  0001 C CNN
+F 3 "" H 12050 3250 50  0000 C CNN
+	1    12050 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:SW_PUSH-helix-cache-2019-03-21-22-27-31 SW5
+U 1 1 5986BAB7
+P 12900 2000
+AR Path="/5986BAB7" Ref="SW5"  Part="1" 
+AR Path="/00000000/5986BAB7" Ref="SW5"  Part="1" 
+F 0 "SW5" H 13050 2110 50  0000 C CNN
+F 1 "SW_PUSH" H 12900 1920 50  0000 C CNN
+F 2 "JMG:MXOnly-1U-Hotswap-Double-noled" H 12900 2000 50  0001 C CNN
+F 3 "" H 12900 2000 50  0000 C CNN
+	1    12900 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:SW_PUSH-helix-cache-2019-03-21-22-27-31 SW11
+U 1 1 5986C690
+P 12900 2600
+AR Path="/5986C690" Ref="SW11"  Part="1" 
+AR Path="/00000000/5986C690" Ref="SW11"  Part="1" 
+F 0 "SW11" H 13050 2710 50  0000 C CNN
+F 1 "SW_PUSH" H 12900 2520 50  0000 C CNN
+F 2 "JMG:MXOnly-1U-Hotswap-Double-noled" H 12900 2600 50  0001 C CNN
+F 3 "" H 12900 2600 50  0000 C CNN
+	1    12900 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:SW_PUSH-helix-cache-2019-03-21-22-27-31 SW17
+U 1 1 5986C996
+P 12900 3250
+AR Path="/5986C996" Ref="SW17"  Part="1" 
+AR Path="/00000000/5986C996" Ref="SW17"  Part="1" 
+F 0 "SW17" H 13050 3360 50  0000 C CNN
+F 1 "SW_PUSH" H 12900 3170 50  0000 C CNN
+F 2 "JMG:MXOnly-1U-Hotswap-Double-noled" H 12900 3250 50  0001 C CNN
+F 3 "" H 12900 3250 50  0000 C CNN
+	1    12900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:SW_PUSH-helix-cache-2019-03-21-22-27-31 SW23
+U 1 1 5986C9DE
+P 12900 3850
+AR Path="/5986C9DE" Ref="SW23"  Part="1" 
+AR Path="/00000000/5986C9DE" Ref="SW23"  Part="1" 
+F 0 "SW23" H 13050 3960 50  0000 C CNN
+F 1 "SW_PUSH" H 12900 3770 50  0000 C CNN
+F 2 "JMG:MXOnly-1U-Hotswap-Double-noled" H 12900 3850 50  0001 C CNN
+F 3 "" H 12900 3850 50  0000 C CNN
+	1    12900 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:SW_PUSH-helix-cache-2019-03-21-22-27-31 SW6
+U 1 1 5986BAC3
+P 13750 2000
+AR Path="/5986BAC3" Ref="SW6"  Part="1" 
+AR Path="/00000000/5986BAC3" Ref="SW6"  Part="1" 
+F 0 "SW6" H 13900 2110 50  0000 C CNN
+F 1 "SW_PUSH" H 13750 1920 50  0000 C CNN
+F 2 "JMG:MXOnly-1U-Hotswap-Double-noled" H 13750 2000 50  0001 C CNN
+F 3 "" H 13750 2000 50  0000 C CNN
+	1    13750 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:SW_PUSH-helix-cache-2019-03-21-22-27-31 SW12
+U 1 1 5986C69C
+P 13750 2600
+AR Path="/5986C69C" Ref="SW12"  Part="1" 
+AR Path="/00000000/5986C69C" Ref="SW12"  Part="1" 
+F 0 "SW12" H 13900 2710 50  0000 C CNN
+F 1 "SW_PUSH" H 13750 2520 50  0000 C CNN
+F 2 "JMG:MXOnly-1U-Hotswap-Double-noled" H 13750 2600 50  0001 C CNN
+F 3 "" H 13750 2600 50  0000 C CNN
+	1    13750 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:SW_PUSH-helix-cache-2019-03-21-22-27-31 SW18
+U 1 1 5986C9A2
+P 13750 3250
+AR Path="/5986C9A2" Ref="SW18"  Part="1" 
+AR Path="/00000000/5986C9A2" Ref="SW18"  Part="1" 
+F 0 "SW18" H 13900 3360 50  0000 C CNN
+F 1 "SW_PUSH" H 13750 3170 50  0000 C CNN
+F 2 "JMG:MXOnly-1U-Hotswap-Double-noled" H 13750 3250 50  0001 C CNN
+F 3 "" H 13750 3250 50  0000 C CNN
+	1    13750 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:SW_PUSH-helix-cache-2019-03-21-22-27-31 SW24
+U 1 1 5986C9EA
+P 13750 3850
+AR Path="/5986C9EA" Ref="SW24"  Part="1" 
+AR Path="/00000000/5986C9EA" Ref="SW24"  Part="1" 
+F 0 "SW24" H 13900 3960 50  0000 C CNN
+F 1 "SW_PUSH" H 13750 3770 50  0000 C CNN
+F 2 "JMG:MXOnly-1U-Hotswap-Double-noled" H 13750 3850 50  0001 C CNN
+F 3 "" H 13750 3850 50  0000 C CNN
+	1    13750 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:SW_PUSH-helix-cache-2019-03-21-22-27-31 SW19
+U 1 1 5EEE4FE3
+P 14600 3250
+AR Path="/5EEE4FE3" Ref="SW19"  Part="1" 
+AR Path="/00000000/5EEE4FE3" Ref="SW19"  Part="1" 
+F 0 "SW19" H 14750 3360 50  0000 C CNN
+F 1 "SW_PUSH" H 14600 3170 50  0000 C CNN
+F 2 "JMG:MXOnly-1U-Hotswap-Double-noled" H 14600 3250 50  0001 C CNN
+F 3 "" H 14600 3250 50  0000 C CNN
+	1    14600 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:SW_PUSH-helix-cache-2019-03-21-22-27-31 SW25
+U 1 1 5A04BA4A
+P 14600 3850
+AR Path="/5A04BA4A" Ref="SW25"  Part="1" 
+AR Path="/00000000/5A04BA4A" Ref="SW25"  Part="1" 
+F 0 "SW25" H 14750 3960 50  0000 C CNN
+F 1 "SW_PUSH" H 14600 3770 50  0000 C CNN
+F 2 "JMG:MXOnly-1U-Hotswap-Double-noled" H 14600 3850 50  0001 C CNN
+F 3 "" H 14600 3850 50  0000 C CNN
+	1    14600 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:ProMicro-helix-cache-2019-03-21-22-27-31 U1
+U 1 1 5986A7F2
+P 2900 2800
+AR Path="/5986A7F2" Ref="U1"  Part="1" 
+AR Path="/00000000/5986A7F2" Ref="U1"  Part="1" 
+F 0 "U1" H 3300 3800 60  0000 C CNN
+F 1 "ProMicro" V 2700 2800 60  0000 C CNN
+F 2 "MYLIB:ProMicro_rev" H 2900 2900 60  0001 C CNN
+F 3 "" H 2900 2900 60  0000 C CNN
+	1    2900 2800
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
