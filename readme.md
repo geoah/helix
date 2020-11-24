@@ -1,18 +1,18 @@
-# Helix
+# Lesser Helix
 
-![Helix](https://i.imgur.com/XBAmynN.jpg)
+A very compact, split, ortholinear, hot-swappable keyboard designed for use
+with the nice!nano.
 
-A compact split ortholinear keyboard.
+![Lesser Helix](README-photo.png)
+![Lesser Helix Kicad](README-kicad.png)
 
-## Documents
+## Features
 
-* Build Guide - [JP](/Doc/buildguide_jp.md), [EN](/Doc/buildguide_en.md)
-* Firmware - [JP](/Doc/firmware_jp.md), [EN](/Doc/firmware_en.md)
-* Usage - [JP](/Doc/usage_jp.md), [EN](/Doc/usage_en.md) 
+- Hotswap choc and mx sockets
+- No TRRS jack
+- Battery switch
 
+## Credits
 
-## Tool & Data
-
-* [PCB Data](/PCB)
-* [Case Data](/Case)
-* [Font Converter](/FontConverter)
+- [MakotoKurauchi](https://github.com/MakotoKurauchi/helix)
+- [McMadhatter](https://github.com/mcmadhatter/helix)

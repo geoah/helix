@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name "Lily58-footprint")(type "KiCad")(uri "${KIPRJMOD}/Lily58-footprint.pretty")(options "")(descr ""))
-  (lib (name "LesserHelix-footprint")(type "KiCad")(uri "${KIPRJMOD}/LesserHelix-footprint.pretty")(options "")(descr ""))
-)
